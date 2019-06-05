@@ -4,11 +4,7 @@ def hello(parrot):
 
 
 
-parrots = [" is bereft of life", " has joined the choir invisible", " is an ex-parrot"]
-
-for parrot in parrots:
-    hello(parrot)
-
+parrot = " is an ex-parrot"
 
 def deadparrot(name):
     print("This is the " + name)
