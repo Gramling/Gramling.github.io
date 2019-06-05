@@ -1,14 +1,10 @@
 def hello(parrot):
-    print("This is an ex-parrot" + parrot)
+    print("This parrot" + parrot)
 
 
 
 
-parrots = ["-bereft of life", "-joined the choir invisible"]
+parrots = [" is bereft of life", " has joined the choir invisible", " is an ex-parrot"]
 
 for parrot in parrots:
     hello(parrot)
-
-
-
-    
